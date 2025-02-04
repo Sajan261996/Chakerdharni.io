@@ -1,0 +1,107 @@
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: linear-gradient(to right, #bf1e2d, #ff6600);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+/* Circular Logo */
+.circular-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  margin-right: 10px;
+}
+
+/* Text Animation - Sliding, Fading Out, and Reappearing */
+@keyframes slideFade {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.logo-text {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #f0f8f9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.logo-text.fade {
+  animation: slideFade 2s ease-in-out;
+}
+
+/* Small Boxes */
+.small-boxes-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.small-box {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.small-box:hover {
+  transform: scale(1.1);
+}
+
+.small-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Call to Action Button */
+.cta-button {
+  background: rosybrown;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #bc8f8f;
+  transform: scale(1.08);
+}
