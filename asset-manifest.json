@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/todo-app/static/css/main.612e74f4.css",
-    "main.js": "/todo-app/static/js/main.21297400.js",
-    "static/js/453.ac79db8d.chunk.js": "/todo-app/static/js/453.ac79db8d.chunk.js",
-    "static/media/image1.jpg": "/todo-app/static/media/image1.e8505a59bd04acd0a15e.jpg",
-    "static/media/image5.jpg": "/todo-app/static/media/image5.862d4da5be4f66960201.jpg",
-    "static/media/Logoimage.jpeg": "/todo-app/static/media/Logoimage.f88b7312c46f3bd04c20.jpeg",
-    "static/media/image6.jpg": "/todo-app/static/media/image6.b8e733362c62cb7e098b.jpg",
-    "static/media/image4.jpg": "/todo-app/static/media/image4.93144377ce38ff2a9f82.jpg",
-    "index.html": "/todo-app/index.html",
-    "main.612e74f4.css.map": "/todo-app/static/css/main.612e74f4.css.map",
-    "main.21297400.js.map": "/todo-app/static/js/main.21297400.js.map",
-    "453.ac79db8d.chunk.js.map": "/todo-app/static/js/453.ac79db8d.chunk.js.map"
+    "main.css": "/Chakerdharni.io/static/css/main.612e74f4.css",
+    "main.js": "/Chakerdharni.io/static/js/main.d927eb7d.js",
+    "static/js/453.ac79db8d.chunk.js": "/Chakerdharni.io/static/js/453.ac79db8d.chunk.js",
+    "static/media/image1.jpg": "/Chakerdharni.io/static/media/image1.e8505a59bd04acd0a15e.jpg",
+    "static/media/image5.jpg": "/Chakerdharni.io/static/media/image5.862d4da5be4f66960201.jpg",
+    "static/media/Logoimage.jpeg": "/Chakerdharni.io/static/media/Logoimage.f88b7312c46f3bd04c20.jpeg",
+    "static/media/image6.jpg": "/Chakerdharni.io/static/media/image6.b8e733362c62cb7e098b.jpg",
+    "static/media/image4.jpg": "/Chakerdharni.io/static/media/image4.93144377ce38ff2a9f82.jpg",
+    "index.html": "/Chakerdharni.io/index.html",
+    "main.612e74f4.css.map": "/Chakerdharni.io/static/css/main.612e74f4.css.map",
+    "main.d927eb7d.js.map": "/Chakerdharni.io/static/js/main.d927eb7d.js.map",
+    "453.ac79db8d.chunk.js.map": "/Chakerdharni.io/static/js/453.ac79db8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.612e74f4.css",
-    "static/js/main.21297400.js"
+    "static/js/main.d927eb7d.js"
   ]
 }
