@@ -27,7 +27,7 @@ const Header = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setFade((prev) => !prev);
-    }, 5000); // Every 5 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
@@ -54,10 +54,19 @@ const Header = () => {
           ))}
         </div>
 
-        <button className="cta-button" onClick={() => alert("Sajan.kumar261996@gmail.com")}>
-          Connect
-        </button>
+        <button className="cta-button" onClick={() => alert("Sajan.kumar261996@gmail.com")}>Connect</button>
       </header>
+
+      <div className="slider-container colorful">
+        <div className="slider colorful-text">
+          <marquee behavior="scroll" direction="left" scrollamount="6">
+            <span style={{ color: "red", fontWeight: "bold" }}>🌟 Looking for a skilled web developer to bring your ideas to life? </span>
+            <span style={{ color: "blue", fontWeight: "bold" }}>🌟 I specialize in custom websites, web applications, and responsive designs, ensuring a seamless user experience. </span>
+            <span style={{ color: "green", fontWeight: "bold" }}>🎨 Whether you need a business website, e-commerce store, or a custom web solution, I can help. </span>
+            <span style={{ color: "purple", fontWeight: "bold" }}>🚀📧 Contact me: Sajan.kumar261996@</span>
+          </marquee>
+        </div>
+      </div>
     </>
   );
 };
