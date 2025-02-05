@@ -57,6 +57,14 @@ const Header = () => {
         <button className="cta-button" onClick={() => alert("Sajan.kumar261996@gmail.com")}>
           Connect
         </button>
+            <div className="slider-container">
+        <div className="slider">
+          <p>
+            Looking for a skilled web developer to bring your ideas to life? I specialize in custom websites, web applications, and responsive designs, ensuring a seamless user experience. Whether you need a business website, e-commerce store, or a custom web solution, I can help.
+            📧 Contact me: Sajan.kumar261996@
+          </p>
+        </div>
+
       </header>
     </>
   );
