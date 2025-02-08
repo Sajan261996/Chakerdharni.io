@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Chakerdharni.io/static/css/main.612e74f4.css",
-    "main.js": "/Chakerdharni.io/static/js/main.d927eb7d.js",
+    "main.js": "/Chakerdharni.io/static/js/main.8a4ae6d7.js",
     "static/js/453.ac79db8d.chunk.js": "/Chakerdharni.io/static/js/453.ac79db8d.chunk.js",
     "static/media/image1.jpg": "/Chakerdharni.io/static/media/image1.e8505a59bd04acd0a15e.jpg",
     "static/media/image5.jpg": "/Chakerdharni.io/static/media/image5.862d4da5be4f66960201.jpg",
@@ -10,11 +10,11 @@
     "static/media/image4.jpg": "/Chakerdharni.io/static/media/image4.93144377ce38ff2a9f82.jpg",
     "index.html": "/Chakerdharni.io/index.html",
     "main.612e74f4.css.map": "/Chakerdharni.io/static/css/main.612e74f4.css.map",
-    "main.d927eb7d.js.map": "/Chakerdharni.io/static/js/main.d927eb7d.js.map",
+    "main.8a4ae6d7.js.map": "/Chakerdharni.io/static/js/main.8a4ae6d7.js.map",
     "453.ac79db8d.chunk.js.map": "/Chakerdharni.io/static/js/453.ac79db8d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.612e74f4.css",
-    "static/js/main.d927eb7d.js"
+    "static/js/main.8a4ae6d7.js"
   ]
 }
